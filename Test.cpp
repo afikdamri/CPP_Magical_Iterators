@@ -50,7 +50,7 @@ TEST_CASE("Test number 4: Traversing the PrimeIterator for the MagicalContainer"
     REQUIRE(result == std::vector<int>({7, 11}));
 }
 
-/*TEST_CASE("Test number 5: Traversing the SideCrossIterator for the MagicalContainer") {
+TEST_CASE("Test number 5: Traversing the SideCrossIterator for the MagicalContainer") {
     MagicalContainer container;
     container.addElement(1);
     container.addElement(2);
@@ -61,7 +61,7 @@ TEST_CASE("Test number 4: Traversing the PrimeIterator for the MagicalContainer"
         result.push_back(*it);
     }
     REQUIRE(result == std::vector<int>({1, 3, 2}));
-}*/
+}
 
 TEST_CASE("Test number 6: Adding and removing elements from the MagicalContainer") {
     MagicalContainer container;
